@@ -1,3 +1,7 @@
 import os
 os.system('git pull')
-import rk
+
+try:
+    import visitor
+except:
+    import rk
